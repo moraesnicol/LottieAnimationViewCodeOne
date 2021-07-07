@@ -3,16 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0757EFA26960D82004A62FA /* confetti-on-transparent-background.json in Resources */ = {isa = PBXBuildFile; fileRef = C0757EF926960D82004A62FA /* confetti-on-transparent-background.json */; };
 		C0A6F52E2695F0E2000C9BDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6F52D2695F0E2000C9BDB /* AppDelegate.swift */; };
 		C0A6F5302695F0E2000C9BDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6F52F2695F0E2000C9BDB /* SceneDelegate.swift */; };
 		C0A6F5322695F0E2000C9BDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6F5312695F0E2000C9BDB /* ViewController.swift */; };
-		C0A6F5352695F0E2000C9BDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A6F5332695F0E2000C9BDB /* Main.storyboard */; };
 		C0A6F5372695F0E3000C9BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A6F5362695F0E3000C9BDB /* Assets.xcassets */; };
-		C0A6F53A2695F0E3000C9BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A6F5382695F0E3000C9BDB /* LaunchScreen.storyboard */; };
+		C0A6F5452695F517000C9BDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A6F5442695F517000C9BDB /* LaunchScreen.xib */; };
+		C0A6F54926960826000C9BDB /* check-okey-done.json in Resources */ = {isa = PBXBuildFile; fileRef = C0A6F54726960826000C9BDB /* check-okey-done.json */; };
 		CD47428881C2A7AEA4FF70CD /* Pods_LottieAnimationOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48434C9F249C5343ABA88B53 /* Pods_LottieAnimationOne.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,14 +21,15 @@
 		0AF7341CAB3D5BD9B4BC067B /* Pods-LottieAnimationOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationOne.release.xcconfig"; path = "Target Support Files/Pods-LottieAnimationOne/Pods-LottieAnimationOne.release.xcconfig"; sourceTree = "<group>"; };
 		2C07C6A11E3ADD56E21451B1 /* Pods-LottieAnimationOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationOne.debug.xcconfig"; path = "Target Support Files/Pods-LottieAnimationOne/Pods-LottieAnimationOne.debug.xcconfig"; sourceTree = "<group>"; };
 		48434C9F249C5343ABA88B53 /* Pods_LottieAnimationOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimationOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0757EF926960D82004A62FA /* confetti-on-transparent-background.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "confetti-on-transparent-background.json"; sourceTree = "<group>"; };
 		C0A6F52A2695F0E2000C9BDB /* LottieAnimationOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimationOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A6F52D2695F0E2000C9BDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A6F52F2695F0E2000C9BDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C0A6F5312695F0E2000C9BDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C0A6F5342695F0E2000C9BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0A6F5362695F0E3000C9BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C0A6F5392695F0E3000C9BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0A6F53B2695F0E3000C9BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A6F5442695F517000C9BDB /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		C0A6F54726960826000C9BDB /* check-okey-done.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "check-okey-done.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +73,40 @@
 		C0A6F52C2695F0E2000C9BDB /* LottieAnimationOne */ = {
 			isa = PBXGroup;
 			children = (
-				C0A6F52D2695F0E2000C9BDB /* AppDelegate.swift */,
-				C0A6F52F2695F0E2000C9BDB /* SceneDelegate.swift */,
-				C0A6F5312695F0E2000C9BDB /* ViewController.swift */,
-				C0A6F5332695F0E2000C9BDB /* Main.storyboard */,
-				C0A6F5362695F0E3000C9BDB /* Assets.xcassets */,
-				C0A6F5382695F0E3000C9BDB /* LaunchScreen.storyboard */,
 				C0A6F53B2695F0E3000C9BDB /* Info.plist */,
+				C0A6F5432695F4DA000C9BDB /* Application */,
+				C0A6F5422695F4C8000C9BDB /* Misc */,
+				C0A6F5412695F4AF000C9BDB /* AnimationOne */,
 			);
 			path = LottieAnimationOne;
+			sourceTree = "<group>";
+		};
+		C0A6F5412695F4AF000C9BDB /* AnimationOne */ = {
+			isa = PBXGroup;
+			children = (
+				C0757EF926960D82004A62FA /* confetti-on-transparent-background.json */,
+				C0A6F54726960826000C9BDB /* check-okey-done.json */,
+				C0A6F5312695F0E2000C9BDB /* ViewController.swift */,
+				C0A6F5442695F517000C9BDB /* LaunchScreen.xib */,
+			);
+			path = AnimationOne;
+			sourceTree = "<group>";
+		};
+		C0A6F5422695F4C8000C9BDB /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				C0A6F5362695F0E3000C9BDB /* Assets.xcassets */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		C0A6F5432695F4DA000C9BDB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C0A6F52D2695F0E2000C9BDB /* AppDelegate.swift */,
+				C0A6F52F2695F0E2000C9BDB /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		DAE5C5BDB38B2EC0BEB89A5F /* Pods */ = {
@@ -88,7 +115,6 @@
 				2C07C6A11E3ADD56E21451B1 /* Pods-LottieAnimationOne.debug.xcconfig */,
 				0AF7341CAB3D5BD9B4BC067B /* Pods-LottieAnimationOne.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,9 +177,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0A6F53A2695F0E3000C9BDB /* LaunchScreen.storyboard in Resources */,
+				C0A6F5452695F517000C9BDB /* LaunchScreen.xib in Resources */,
+				C0757EFA26960D82004A62FA /* confetti-on-transparent-background.json in Resources */,
+				C0A6F54926960826000C9BDB /* check-okey-done.json in Resources */,
 				C0A6F5372695F0E3000C9BDB /* Assets.xcassets in Resources */,
-				C0A6F5352695F0E2000C9BDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,25 +240,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C0A6F5332695F0E2000C9BDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0A6F5342695F0E2000C9BDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C0A6F5382695F0E3000C9BDB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0A6F5392695F0E3000C9BDB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C0A6F53C2695F0E3000C9BDB /* Debug */ = {
